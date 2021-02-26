@@ -14,7 +14,7 @@ import PropTypes from 'prop-types';
 const CounterApp = ({ value }) => {
 
     if (! value){
-        throw new Error( 'El value es neecsario' );
+        throw new Error( 'El value es necesario' );
     }
 
     return (
@@ -25,7 +25,7 @@ const CounterApp = ({ value }) => {
         );
 }
 
-PrimeraAppp.protoTypes = {
+CounterApp.protoTypes = {
     value: PropTypes.string.isRequired    
 }
 
